@@ -1,0 +1,96 @@
+.flex{
+    display: flex;
+}
+button.black{
+    color: white;
+    background: transparent;
+    border: 2px transparent;
+    padding: 0.8rem 0.8rem;
+    outline: none;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+    font-family: 'poppins', sans-serif;
+
+} 
+nav{
+    position: sticky;
+}
+button.black:hover{
+    background: transparent;
+    color: rgb(16, 210, 236);
+}
+button.orange{
+    border-radius: 50%;
+    width: 27px;
+    height: 27px;
+    background: orange;
+    border: 2px transparent;
+}
+button.purple{
+    border-radius: 50%;
+    width: 27px;
+    height: 27px;
+    background: rgb(170, 38, 231);
+    border: 2px transparent;
+}
+.items-center{
+    align-items: center;
+}
+
+.justify-between{
+    justify-content: space-between;
+}
+
+.btn{
+    padding: 0.8rem 3rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border: 2px solid transparent;
+    outline: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+    font-family: 'poppins', sans-serif;
+}
+
+.btn-primary{
+    background: var(--primary);
+    color: var(--secondary);
+}
+.btn-primary a{
+    text-decoration: none;
+    color: white;
+    
+}
+.btn-secondary a{
+    text-decoration: none;
+    color: var(--primary);
+}
+
+.btn-primary:hover{
+    background: transparent;
+    border-color: var(--primary);
+    color: var(--primary);
+}
+.btn-secondary{
+    background: transparent;
+    border-color: var(--primary);
+    color: var(--primary);
+}
+.btn-secondary:hover{
+    background: transparent;
+    border: 2px solid;
+    border-color: red;
+    color:orangered;
+}
+.flex-1{
+    flex:1;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+
